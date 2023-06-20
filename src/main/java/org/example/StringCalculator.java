@@ -12,7 +12,20 @@ public class StringCalculator implements StringCalculatorInterface {
             throw new RuntimeException("Up to 2 numbers separated by comma (,) are allowed");
         } else {
             for (String number : numbersArray) {
+
+                // exception if the number is negative by looking for -
+                if(number.contains("-")){
+                    throw new NegativeException("negative is not allowed ");
+
+                }
                 if (!number.trim().isEmpty()) {
+
+                    // add the if number is equal or more to the 1000 returns 1
+
+                    if (Integer.parseInt(number.trim())<=1000){
+                        return returnValue = 1;
+                    }
+
                     returnValue+=Integer.parseInt(number.trim()); // If it is not a number, parseInt will throw an exception
                 }
             }
@@ -20,4 +33,8 @@ public class StringCalculator implements StringCalculatorInterface {
         return returnValue;
 
     }
+   // class addedFuncationality implements add{
+
+    //}
+
 }
