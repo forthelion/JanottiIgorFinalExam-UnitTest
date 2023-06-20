@@ -11,14 +11,16 @@ public class TestCalculator {
     @Test
     public void negativeExceptionTest()
     {
+       // int number = 0;
         assertThrows(
-                IllegalArgumentException.class, () -> {
-                    int returnNumber  = StringCalculator.add("-1,5");
+                IllegalArgumentException.class, () ->{
+                     int number = StringCalculator.add("-1,5");
                 }
+
         );
 
-        //hi
-    }
+
+    };
 
 
     @Test

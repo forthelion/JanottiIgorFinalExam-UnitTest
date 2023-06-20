@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b2031b-9665-4a2d-b58c-9c3fb5e64506" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="60b2031b-9665-4a2d-b58c-9c3fb5e64506" name="Changes" comment="Fixed exception by changing the name to throw IllegalArgumentException and right now trying to get travis to work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,12 +35,18 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "onboarding.tips.debug.path": "C:/Users/Igorj/JanottiIgorFinalExamUnitTestver2/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,17 +56,60 @@
       <option name="presentableId" value="Default" />
       <updated>1687286738974</updated>
     </task>
+    <task id="LOCAL-00001" summary="setup code">
+      <created>1687288358782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687288358782</updated>
+    </task>
+    <task id="LOCAL-00002" summary="setup code">
+      <created>1687288721114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687288721114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task 2 add funcatioliy negative Exception is bugged, and gave yet to connect to travis">
+      <created>1687289816864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687289816864</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed exception by changing the name to throw IllegalArgumentException">
+      <created>1687289996870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687289996870</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed exception by changing the name to throw IllegalArgumentException and right now trying to get travis to work">
+      <created>1687290078392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687290078392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup code" />
+    <MESSAGE value="Task 2 add funcatioliy negative Exception is bugged, and gave yet to connect to travis" />
+    <MESSAGE value="Fixed exception by changing the name to throw IllegalArgumentException" />
+    <MESSAGE value="Fixed exception by changing the name to throw IllegalArgumentException and right now trying to get travis to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed exception by changing the name to throw IllegalArgumentException and right now trying to get travis to work" />
   </component>
 </project>

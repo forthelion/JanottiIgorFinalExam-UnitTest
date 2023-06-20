@@ -6,6 +6,12 @@ public class StringCalculator implements StringCalculatorInterface {
 
     @Override
     public  int add(String numbers) {
+        // exception if the number is negative by looking for -
+        if(numbers.contains("-")){
+            throw new IllegalArgumentException("Negative is not allowed ");
+
+        }
+
         int returnValue=0;
         String[] numbersArray = numbers.split(",|\n");
         if (numbersArray.length > 2) {
@@ -13,11 +19,7 @@ public class StringCalculator implements StringCalculatorInterface {
         } else {
             for (String number : numbersArray) {
 
-                // exception if the number is negative by looking for -
-                if(number.contains("-")){
-                    throw new IllegalArgumentException("Negative is not allowed ");
 
-                }
                 if (!number.trim().isEmpty()) {
 
                     // add the if number is equal or more to the 1000 returns 1
