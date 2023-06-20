@@ -12,7 +12,7 @@ public class TestCalculator {
     public void negativeExceptionTest()
     {
         assertThrows(
-                NegativeException.class, () -> {
+                IllegalArgumentException.class, () -> {
                     int returnNumber  = StringCalculator.add("-1,5");
                 }
         );
