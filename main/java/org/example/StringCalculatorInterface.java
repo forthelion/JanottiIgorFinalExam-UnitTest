@@ -3,5 +3,5 @@ package org.example;
 public interface StringCalculatorInterface {
 
 
-    int add(String numbers);
+     int  add(String numbers);
 }

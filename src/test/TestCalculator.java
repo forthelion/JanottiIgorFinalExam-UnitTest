@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestCalculator {
 
-    private StringCalculatorInterface StringCalculator;
+    //private StringCalculatorInterface StringCalculator;
+
 
     @Test
     public void negativeExceptionTest()
@@ -14,7 +15,8 @@ public class TestCalculator {
        // int number = 0;
         assertThrows(
                 IllegalArgumentException.class, () ->{
-                     int number = StringCalculator.add("-1,5");
+                   //  int number = StringCalculator.add("-1,5");
+                    int number = StringCalculator.add("-1,5");
                 }
 
         );
