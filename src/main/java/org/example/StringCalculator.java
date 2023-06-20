@@ -15,7 +15,7 @@ public class StringCalculator implements StringCalculatorInterface {
 
                 // exception if the number is negative by looking for -
                 if(number.contains("-")){
-                    throw new IllegalArgumentException("negative is not allowed ");
+                    throw new IllegalArgumentException("Negative is not allowed ");
 
                 }
                 if (!number.trim().isEmpty()) {
